@@ -9,7 +9,13 @@ AKIPS package
 go get github.com/xtokio/akips
 ```
 
-1. Add the dependency to your `main.go` file:
+ENV Variables
+```bash
+export AKIPS_URL="akips_server.com"
+export AKIPS_PASSWORD="akips_api_password"
+```
+
+Add the dependency to your `main.go` file:
 
   ```go
  import (
